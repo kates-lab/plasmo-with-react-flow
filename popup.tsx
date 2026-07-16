@@ -9,9 +9,9 @@ function IndexPopup() {
         padding: 16
       }}>
       <h2>
-        Welcome to your{" "}
-        <a href="https://www.plasmo.com" target="_blank">
-          Plasmo
+        {" "}
+        <a href="./tabs/test-tab-page.html" target="_blank">
+          Test Tab Page 
         </a>{" "}
         Extension!
       </h2>
