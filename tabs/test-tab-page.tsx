@@ -1,7 +1,7 @@
 function TestTabPage() {
 	return (
-		<div><h1>TEST TAB PAGE! 9</h1>
-
+		<div>
+                   <p>Number: {process.env.PLASMO_PUBLIC_APP_BUILD_TIME}</p>
 
 		</div>
 
