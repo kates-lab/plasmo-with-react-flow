@@ -1,7 +1,11 @@
 function TestTabPage() {
 	return (
 		<div>
-                   <p>Number: {process.env.PLASMO_PUBLIC_APP_BUILD_TIME}</p>
+                   <p>enviornment variables etc. i love testing tabs. tab tab tab tabs. WHY ISN'T THE CODE REFRESHING
+		   <br />
+        hello testing etc
+		   </p>
+
 
 		</div>
 
@@ -12,4 +16,4 @@ function TestTabPage() {
 
 }
 
-export default TestTabPage
+export default TestTabPage 
