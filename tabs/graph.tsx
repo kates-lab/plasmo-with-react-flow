@@ -16,14 +16,14 @@ const initialNodes = [
   },
 ];
 
-export default function GraphPage () {
-	return(
-	  <div style={{ height: '100wv', width: '100vh' }}>
-		<ReactFlow nodes={initalNodes}>
-		< /ReactFlow>
-	  </div>
+export default function GraphPage() {
+  return (
+    <div style={{ height: '100wv', width: '100vh' }}>
+      <ReactFlow nodes={initialNodes}>
+        < /ReactFlow>
+    </div>
 
-	);
+  );
 }
 
 export default GraphPage()

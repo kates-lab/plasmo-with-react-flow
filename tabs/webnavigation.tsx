@@ -25,7 +25,7 @@ function WebNavigationListener() {
         webnavigation events will be reported here!!
       </p>
       <p>
-        yo hey check this cool link out: <a href="https://www.example.com">https://www.example.com</a>
+        yo hey check this cool link out: <a href="https://www.example.com" target="_blank">https://www.example.com</a>
       </p>
       <p>
         and this: <a href="https://en.wikipedia.org/wiki/Special:Random">Wikipedia:Random</a>
