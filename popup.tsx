@@ -27,7 +27,7 @@ function IndexPopup() {
       <input onChange={(e) => setData(e.target.value)} value={data} />
 
       <p><b>IF THE EXTENSION WON'T RELOAD A TAB PAGE, IT'S BECAUSE YOUR CODE DOESN'T WORK. IF NEEDED RESTART THE DEV SERVER</b>
-        <div />
+
         (React Flow pages don't change without a refresh)
       </p>
       <a href="https://docs.plasmo.com" target="_blank">
