@@ -1,6 +1,28 @@
 import './fakenostalgia.css';
+import { useState, useEffect } from 'react'
 
 function WebNavigationListener() {
+
+  useEffect(() => {
+    // setup code
+    // x.addEventListener
+    return () => {
+      // cleanup code
+      // x.removeEventListener ;-;
+
+
+    };
+  }, []); // no deps
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17,4 +39,4 @@ function WebNavigationListener() {
 
 }
 
-export default WebNavigationListener 
+export default WebNavigationListener
