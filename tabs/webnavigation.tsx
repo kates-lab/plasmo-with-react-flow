@@ -6,7 +6,7 @@ import './fakenostalgia.css';
 import { useState, useEffect } from 'react'
 
 function BreakpointButton() {
-  let breakpointNo = 1;
+  let breakpointNo = 0;
   function handleBreakpoint() {
     breakpointNo += 1;
     console.log(breakpointNo);
@@ -16,6 +16,7 @@ function BreakpointButton() {
   return (
     <button onClick={handleBreakpoint}>Set breakpoint</button>
   );
+
 
 }
 

@@ -1,0 +1,6 @@
+{
+  "extends": "@plasmohq/parcel-config",
+  "transformers": {
+    "*.buildtime.js": ["./parcel-transformer-build-time.js"]
+  }
+}

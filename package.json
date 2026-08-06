@@ -6,8 +6,8 @@
   "author": "Katherine Santiago <kate.s@atakama.com>",
   "scripts": {
     "dev": "export PLASMO_PUBLIC_APP_BUILD_TIME=$(date) && plasmo dev",
-    "build": "plasmo build",
-    "package": "plasmo package"
+    "build": "export PLASMO_PUBLIC_APP_BUILD_TIME=$(date) && plasmo build",
+    "package": "export PLASMO_PUBLIC_APP_BUILD_TIME=$(date) && plasmo package"
   },
   "dependencies": {
     "@xyflow/react": "^12.11.2",
