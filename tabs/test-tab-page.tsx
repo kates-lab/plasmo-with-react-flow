@@ -12,6 +12,16 @@ function TestTabPage() {
         let's sneak an enviornment variable in here just for fun ;)
       </p>
 
+      <p>
+        yo hey check this cool link out: <a href="https://www.example.com" target="_blank">https://www.example.com</a>
+      </p>
+      <p>
+        and this: <a href="https://en.wikipedia.org/wiki/Special:Random">Wikipedia:Random</a>
+      </p>
+      <p>
+        hey bro you need to <a href="https://code.claude.com/docs/en/overview" target="_blank" rel="opener">get with the times</a>
+      </p>
+
     </div>
 
 
