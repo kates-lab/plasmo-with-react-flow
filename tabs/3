@@ -11,10 +11,10 @@ function BreakpointButton() {
     breakpointNo += 1;
     console.log(breakpointNo);
     console.log("========= THIS IS A BREAKPOINT WEE WOO WEE WOO =========");
-    console.log(breakpointNo);
+    console.log(breakpointNo)
   }
   return (
-    <button onClick={handleBreakpoint}>Set breakpoint</button>
+    <button onClick={handleBreakpoint}>Set breakpoint!</button>
   );
 
 }
